@@ -15,7 +15,7 @@ public class MiaoshaItem extends Item{
     private Long id;
     private Long itemId;
     private double miaoshaPrice;
-    private Integer stockNum;
+    private Integer stockCount;
     private Date startDate;
     private Date endDate;
 }

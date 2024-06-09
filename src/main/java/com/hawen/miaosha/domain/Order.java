@@ -1,5 +1,6 @@
 package com.hawen.miaosha.domain;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;
@@ -11,6 +12,7 @@ import java.util.Date;
  * @date 2024/6/8
  */
 @Data
+@Builder
 public class Order {
     private Long id;
     private Long userId;

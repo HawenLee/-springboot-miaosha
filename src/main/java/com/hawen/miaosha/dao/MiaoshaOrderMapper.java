@@ -2,6 +2,7 @@ package com.hawen.miaosha.dao;
 
 import com.hawen.miaosha.domain.MiaoshaOrder;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -11,6 +12,7 @@ import org.apache.ibatis.annotations.Select;
  * @author lijiale
  * @date 2024/6/8
  */
+@Mapper
 public interface MiaoshaOrderMapper {
     @Select("select miaosha_order_id as id, user_id as userId, order_id as " +
             "orderId, item_id as itemId from miaosha_order " +

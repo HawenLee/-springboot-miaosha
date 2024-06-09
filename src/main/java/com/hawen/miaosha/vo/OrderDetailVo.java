@@ -4,7 +4,11 @@ package com.hawen.miaosha.vo;
 import com.hawen.miaosha.domain.MiaoshaItem;
 import com.hawen.miaosha.domain.Order;
 import com.hawen.miaosha.domain.User;
+import lombok.Builder;
+import lombok.Data;
 
+@Builder
+@Data
 public class OrderDetailVo {
     private MiaoshaItem miaoshaItem;
     private Order order;

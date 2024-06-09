@@ -1,5 +1,6 @@
 package com.hawen.miaosha.domain;
 
+import lombok.Builder;
 import lombok.Data;
 
 /**
@@ -9,6 +10,7 @@ import lombok.Data;
  * @date 2024/6/8
  */
 @Data
+@Builder
 public class MiaoshaOrder {
     private Long id;
     private Long userId;
